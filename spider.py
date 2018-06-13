@@ -1,5 +1,13 @@
 #okokanyway
-#简单爬虫
+#简单爬虫1
+import urllib2
+
+url='  '
+request=urllib2.request(url)
+response=urllib2.urlopen(request).read()
+print (response）
+       
+#简单爬虫2
 import urllib2
 def download(url)：
     return urllib2.urlopen(url).read()
