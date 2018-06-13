@@ -12,7 +12,7 @@ import urllib2
 def download(url)：
     return urllib2.urlopen(url).read()
     
-#下面是另一段
+#下面是加入了报错提示重新加载2次
 def download(url,num_retries=2)：
     print("Doenloading",url)
     try：
